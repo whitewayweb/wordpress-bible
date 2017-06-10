@@ -1,0 +1,449 @@
+@font-face{
+	font-family:'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+}
+
+.bible-container{ max-width:900px; width:100%; margin:20px auto;}
+h1.book .icon-book {
+    font-size: 22px;
+    margin-left: 5px;
+}
+.icomoon-arrow-down-2 {
+	background:url(images/324-circle-down.png) no-repeat center center;
+	background-size:contain;
+	width: 13px;
+    height: 20px;
+    display: inline-block;
+}
+.modal-title{ padding:0;}
+.modal .close {
+    font-size: 35px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    padding: 10px 15px 10px 20px;
+}
+.modal .close:hover { background:none;}
+#bible .col-title {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.list-chapters {
+    margin-right: 10px;
+    margin-top: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+}
+.list-chapters .pagination {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    padding-left: 15px;
+	border:0;
+	text-align:left;
+}
+.list-chapters .pagination li {
+    display: inline-block;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.list-chapters .pagination li a { 
+    border: 0;
+    cursor: pointer;
+    color: #999;
+    background-color: #f7f7f7;
+    padding-right: 10px;
+    padding-left: 10px;
+	font-weight: normal;
+}
+.list-chapters .pagination .active a {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: white;
+    background-color: #94c432;
+    border-color: #94c432;
+}
+.mce-window.mce-in{ position:absolute;}
+/****************************/
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+/********** SEARCH RESULT ******************/
+#bible, #bible-search-results{ width:100%; max-width:900px; margin:20px auto;}
+#bible-search-results .box-results {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	width:100%;
+}
+#bible-search-results h2.nb-results {
+    border-bottom: 0px solid #ddd;
+    margin: 0;
+    padding: 7px 10px 0;
+    cursor: default;
+}
+#bible-search-results h2.nb-results:before, #bible-search-results h2.nb-results:after {
+    content: " ";
+    display: table;
+}
+#bible-search-results ul.list-verses-find {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#bible-search-results ul.list-verses-find li {
+    margin: 0;
+    padding: 13px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    font-size: 14px;
+}
+#bible-search-results ul.list-verses-find li:hover {
+    background: #fef6cd;
+}
+#bible-search-results ul.list-verses-find li .ref a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1c7799;
+}
+#bible-search-results ul.list-verses-find li .verse {
+    font-size: 14px;
+}
+.highlight {
+    background: yellow;
+}
+#bible-search-results ul.list-verses-find li .tools-wrap {
+    color: #ccc;
+    font-size: 14px;
+}
+#bible-search-results ul.list-verses-find li .tools-wrap .sep {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#bible-search-results ul.list-verses-find li .tools-wrap a {
+    color: #1c7799;
+    font-size: 12px;
+}
+#bible-search-results .box-results.box-results-exact {
+    background-color: #94c432;
+}
+#bible-search-results .box-results.box-results-exact h2 {
+    color: white;
+	display: inline-block;
+	width:100%;
+}
+#bible-search-results h2.nb-results .info {
+    font-size: 18px;
+}
+#bible h2 {
+    font-size: 20px;
+}
+#bible-search-results h2.nb-results .by-page {
+    font-size: 14px;
+    padding-top: 3px;
+}
+#bible-search-results h2.nb-results .help {
+    cursor: help;
+    font-size: 12px;
+    color: white;
+}
+#bible-search-results .title-wrap {
+    padding: 7px 0;
+}
+#bible-search-results .title-wrap h1 {
+    font-size: 24px;
+    cursor: default;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+#bible-search-results .title-wrap h1 span {
+    font-weight: bold;
+}
+.icomoon-checkmark:before {
+    content: "=>";
+}
+
+#bible-search-results .submenu {
+    margin-top: 13px;
+    margin-right: 0px;
+    max-height: 54px;
+    border: 1px solid #c8c8c8;
+    border-bottom: 0;
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f7f7f7),to(#efefef));
+    background-image: -webkit-linear-gradient(top,#f7f7f7,0%,#efefef,100%);
+    background-image: -moz-linear-gradient(top,#f7f7f7 0,#efefef 100%);
+    background-image: linear-gradient(to bottom,#f7f7f7 0,#efefef 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff7f7f7',endColorstr='#ffefefef',GradientType=0);
+    -webkit-box-shadow: 0 -3px 4px -3px rgba(0,0,0,.4), -3px 0 4px -3px rgba(0,0,0,.4), 3px 0 4px -3px rgba(0,0,0,.4);
+    box-shadow: 0 -3px 4px -3px rgba(0,0,0,.4), -3px 0 4px -3px rgba(0,0,0,.4), 3px 0 4px -3px rgba(0,0,0,.4);
+}
+#centerColumn{
+	margin-top: -6px;
+	float:none;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+    border-top: 0;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 140px;
+}
+#bible-search .search-bible {
+    width: 430px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    min-height: 52px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+#bible-search .search-bible .input-search {
+    height: 40px;
+    border-right: 0;
+	display: table-cell;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	border: 1px solid #ccc;
+    float: left;
+    width: 80%;
+}
+
+#bible-search .input-group{
+	margin-bottom: 15px;
+	display:block;
+	}
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+#bible-search .search-bible .btn {
+    border: 0;
+    height: 40px;
+    color: #fff;
+	background: url(images/search-icon.png) no-repeat center center #94c432;
+    font-size:0;
+    padding: 4px 25px 0 25px;
+	    border-radius: 0 5px 5px 0;
+}
+.icomoon-search:before {
+    content: "\e605";
+}
+#bible-search-results .box-results .pagination {
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+/********************************************************************/
+
+.desc { color:#6b6b6b;}
+.desc a {color:#0092dd;}
+
+#filter.dropdown{    
+	height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+	border: 1px solid #e5e5e5;
+    color: #999;
+    border-radius: 2px;
+    background-color: #fff;
+    background-image: none;
+    filter: none;
+    display: inline-block;
+	margin-left:10px;
+	text-indent: 10px;
+}
+.pull-left label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+	    font-weight: normal;
+    font-size: 14px;
+    padding-left: 8px;
+}
+#filter.dropdown dd, #filter.dropdown dt, #filter.dropdown ul { margin:0px; padding:0px; }
+#filter.dropdown dd { position:relative; }
+#filter.dropdown a, #filter.dropdown a:visited { color:#555; text-decoration:none; outline:none;}
+#filter.dropdown a:hover { color:#5d4617;}
+#filter.dropdown dt a:hover { color:#5d4617; border: 1px solid #d0c9af;}
+#filter.dropdown dt {background: url(images/arrow.png) no-repeat scroll 95% center; display:block; padding-right:20px;border:0px solid #d4ca9a; width:150px;}
+#filter.dropdown dt span {cursor:pointer; display:block; padding:0 5px;    font-weight: normal;
+    font-size: 14px;}
+#filter.dropdown dd ul { background:#fff none repeat scroll 0 0; border:1px solid #3498db; color:#555; display:none;left:0px; padding:5px 0px; position:absolute; top:2px; width:auto; min-width:170px; list-style:none; max-height: 200px; overflow-y: scroll;}
+#filter.dropdown span.value { display:none;}
+#filter.dropdown dd ul li a { padding:5px; display:block;line-height: 15px; border-bottom: 0px solid #d4ca9a;}
+#filter.dropdown dd ul li a:hover { background-color:#3498db;color:#ecf0f1;}
+							
+#filter.dropdown img.flag { border:none; vertical-align:middle; margin-left:10px; }
+.flagvisibility { display:none;}
+							
+		  
+
+/*** PANEL DEFAULT ***/
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+}
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+	background-color: #ddd;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+	color: #555;
+	background-color: #fff;
+	border-color: #ddd;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #777;   
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #555;
+}
+/********************************************************************/
+/*** PANEL PRIMARY ***/
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #428bca;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #4a9fe9;
+}
+/********************************************************************/
+/*** PANEL SUCCESS ***/
+.with-nav-tabs.panel-success .nav-tabs > li > a,
+.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+	color: #3c763d;
+	cursor:pointer;
+	text-transform:capitalize;
+}
+.with-nav-tabs.panel-success .nav-tabs > .open > a,
+.with-nav-tabs.panel-success .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+	color: #3c763d;
+	background-color: #d6e9c6;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-success .nav-tabs > li.active > a,
+.with-nav-tabs.panel-success .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li.active > a:focus {
+	color: #3c763d;
+	background-color: #fff;
+	border-color: #d6e9c6;
+	border-bottom-color: transparent;
+	box-shadow:none;
+}
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #3c763d;   
+}
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #d6e9c6;
+}
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #3c763d;
+}
+/********************************************************************/
+.panel-body .tab-content{ padding:20px 0px 20px 20px;}
+.panel-body .tab-content .content{ padding-left: 10px; }
+.panel-body .tab-content .num{ margin-left: -25px; font-weight:bold; width: 25px; display: block; float: left;}
+
+.post-type-archive-bible .contentarea + .widget, .post-type-archive-bible .contentarea + .td_block_widget{ display:none;}
+
+@media only screen and (max-width:600px) {
+	#bible-search .search-bible .input-search {
+	 width:auto;
+	}
+	.label-chapters{font-size: 20px;}
+	.nav-tabs>li{ margin-top:10px;}
+}
